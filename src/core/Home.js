@@ -85,7 +85,6 @@ import RestCountriesComponent from "./RestCountriesComponent";
             <h4>Rest Countries Api</h4><hr />
             <RestCountriesComponent />
         </div>    
-        {displayFormValues()}
         </div>
       </div>    
     );
