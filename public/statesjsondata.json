@@ -1,7 +1,9 @@
 
 {
  "parent_dropdown_label":"Select State",   
- "child_dropdown_label":"Select City",    
+ "child_dropdown_label":"Select City",  
+ "parent_name":"state",
+ "child_name":"city" ,   
  "values":[
   {
     "id": 1,
