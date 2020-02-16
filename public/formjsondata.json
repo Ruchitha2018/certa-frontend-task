@@ -1,0 +1,60 @@
+[
+  {
+    "label": "Full Name",
+    "name": "first_name",
+    "input_type": "text",
+    "regex":"^[a-zA-Z]+$",
+    "required":true,  
+    "error_validate":"Full Name should be in alphabets order"
+  },
+   {
+    "label": "Email",
+    "name": "email",
+    "input_type": "text",
+    "regex":"^[a-z0-9._%+!$&*=^|~#%{}/-]+@([a-z0-9-]+.){1,}([a-z]{2,22})+$",
+    "error_validate":"Invalid Email"
+  },
+  {
+    "label": "Phone No",
+    "name": "phone_no",
+    "input_type": "text",
+    "regex":"^[0-9]*$",
+    "error_validate":"Invalid Phone Number"
+  },    
+  {
+    "label": "Description",
+    "name": "description",
+    "input_type": "textarea"
+  },
+  {
+    "label": "Education",
+    "name": "Education",
+    "input_type": "dropdown",
+    "values": [
+        "Secondary",
+        "Higher Secondary",
+        "Graduate",
+        "Post Graduate",
+        "Masters"
+    ]  
+  },
+  {
+    "label":"Gender",
+    "name": "gender",
+    "input_type":"radio",
+    "values":[
+        "Female",
+        "Male"
+    ]  
+  },
+  {
+    "label":"Favourite cities",
+    "name": "cities",
+    "input_type":"multiselect",
+    "values":[
+        "Delhi",
+        "Hyderabad",
+        "Mumbai"
+    ]  
+  }    
+]

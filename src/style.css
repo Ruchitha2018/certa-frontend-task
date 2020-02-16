@@ -1,0 +1,28 @@
+body{
+    background: #f0f4f8 !important;
+    font-family: Manjari;
+}
+.certa-form{
+    box-shadow: 0 1px 8px rgba(0,0,0,.18);
+    background: white;
+    padding:20px;
+    margin-top: -07px;
+}
+.certa-form h4{
+    background: #1f4771;
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+.certa-form .form-control{
+    border:1px solid lavender;
+    border-radius: 0px;
+}
+.certa-form p{
+    color:tomato;
+    font-weight: bold;
+}
+.certa-form-values{
+    background: whitesmoke;
+    padding:20px;
+}

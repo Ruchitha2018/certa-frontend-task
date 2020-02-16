@@ -1,0 +1,53 @@
+
+{
+ "parent_dropdown_label":"Select State",   
+ "child_dropdown_label":"Select City",    
+ "values":[
+  {
+    "id": 1,
+    "name": "Maharashtra",
+    "parent_state":0  
+  },
+  {
+    "id": 2,
+    "name": "Andhra Pradesh",
+    "parent_state":0  
+  },
+  {
+    "id": 3,
+    "name": "Karnataka",
+    "parent_state":0  
+  },
+  {
+    "id": 4,
+    "name": "Nanded",
+    "parent_state":1  
+  },
+  {
+    "id": 5,
+    "name": "Pune",
+    "parent_state":1  
+  },
+  {
+    "id": 6,
+    "name": "Mumbai",
+    "parent_state":1  
+  },
+  {
+    "id": 7,
+    "name": "Banglore",
+    "parent_state":3  
+  },
+  {
+    "id": 8,
+    "name": "Hubli",
+    "parent_state":3 
+  },
+  {
+    "id": 9,
+    "name": "Hyderabad",
+    "parent_state":2
+  }      
+    
+]
+}
